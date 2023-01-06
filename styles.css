@@ -1,0 +1,81 @@
+body {
+    background-color: #f2ebe3;
+    min-height: 100vh;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+.main-container {
+    margin: 1.5rem 1rem 1.5rem 1rem;
+    min-height: 100vh;
+}
+.section-container {
+    background-color: white;
+}
+.rounding-corners {
+    border-radius: 15px;
+}
+.rounding-image {
+    border-radius: 15px 15px 0 0;
+}
+.product-image {
+    border-radius: 15px 15px 0 0;
+}
+.product-image {
+    border-radius: 20px 0 0 20px;
+}
+.product-details {
+    padding: 1.2rem;
+}
+.product-details > * {
+    margin-bottom: 0.8rem;
+}
+.note {
+    display: block;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+.title {
+    font-family: "Fraunces", serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 2rem;
+    font-weight: 800;
+}
+.price {
+    font-family: fantasy;
+    color: hsl(158, 36%, 37%);
+    font-size: 1.7rem;
+}
+
+@media only screen and (min-device-width: 760px) {
+    /* CSS rules go here */
+    body {
+        font-size: 20px;
+    }
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-container {
+        display: flex;
+        width: 50%;
+    }
+    .rounding-image {
+        border-radius: 15px 0 0 15px;
+    }
+    .product-details {
+        padding: 2rem 2rem 0 2rem;
+    }
+    .product-details > * {
+        margin-bottom: 1.5rem;
+    }
+}
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
